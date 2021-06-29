@@ -1,6 +1,6 @@
 {
   "name": "@fe-toolkit/cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "bin": {
     "f": "./lib/index.js"
@@ -20,7 +20,7 @@
     "dev": "tsc --watch"
   },
   "dependencies": {
-    "@fe-toolkit/plugin-env-init": "^0.0.0",
+    "@fe-toolkit/plugin-env-init": "0.0.1",
     "cac": "^6.7.3"
   }
 }
