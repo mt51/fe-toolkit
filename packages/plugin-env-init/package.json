@@ -2,7 +2,7 @@
   "name": "@fe-toolkit/plugin-env-init",
   "version": "0.0.1-beta.0",
   "description": "> TODO: description",
-  "author": "liuziyang <liuziyang@youzan.com>",
+  "author": "liuziyang <mliuziyang@gmail.com>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/index",
@@ -19,5 +19,8 @@
   },
   "dependencies": {
     "cac": "^6.7.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
