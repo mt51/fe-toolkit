@@ -19,6 +19,10 @@
         "**/*.md"
       ],
       "message": "chore(release): publish"
+    },
+    "publish": {
+      "registry": "https://registry.npmjs.org/",
+      "contents": "lib"
     }
   }
 }
