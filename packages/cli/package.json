@@ -1,0 +1,26 @@
+{
+  "name": "@fe-toolkit/cli",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "bin": {
+    "f": "./lib/index.js"
+  },
+  "author": "liuziyang <liuziyang@youzan.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@fe-toolkit/plugin-env-init": "^0.0.0",
+    "cac": "^6.7.3"
+  }
+}

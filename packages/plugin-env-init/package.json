@@ -1,0 +1,23 @@
+{
+  "name": "@fe-toolkit/plugin-env-init",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "liuziyang <liuziyang@youzan.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index",
+  "directories": {
+    "lib": "lib",
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "cac": "^6.7.3"
+  }
+}

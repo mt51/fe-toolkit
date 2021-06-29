@@ -1,0 +1,24 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "bootstrap": {
+      "ignore": "component-*",
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
+    },
+    "version": {
+      "allowBranch": "master",
+      "exact": true,
+      "ignoreChanges": [
+        "**/*.md"
+      ],
+      "message": "build: release version %v"
+    }
+  }
+}
