@@ -18,7 +18,7 @@
       "ignoreChanges": [
         "**/*.md"
       ],
-      "message": "build: release version %v"
+      "message": "chore(release): publish"
     }
   }
 }
