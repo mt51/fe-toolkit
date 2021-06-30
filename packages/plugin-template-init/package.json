@@ -1,16 +1,14 @@
 {
-  "name": "@fe-toolkit/cli",
-  "version": "0.0.1-beta.0",
+  "name": "@fe-toolkit/plugin-template-init",
+  "version": "0.0.0",
   "description": "> TODO: description",
-  "bin": {
-    "f": "./lib/index.js"
-  },
   "author": "liuziyang <mliuziyang@gmail.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/index.js",
+  "main": "lib/index",
   "directories": {
     "lib": "lib",
+    "src": "src",
     "test": "__tests__"
   },
   "files": [
@@ -20,7 +18,6 @@
     "dev": "tsc --watch"
   },
   "dependencies": {
-    "@fe-toolkit/plugin-env-init": "0.0.1-beta.0",
     "cac": "^6.7.3",
     "chalk": "^4.1.1"
   },
