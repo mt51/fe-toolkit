@@ -1,1 +1,1 @@
-export default function install(): void;
+export default function execInstallShell(): void;

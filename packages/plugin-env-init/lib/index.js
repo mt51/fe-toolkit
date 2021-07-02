@@ -8,7 +8,6 @@ function init(cli) {
     cli.command('env', '配置开发环境')
         .option('-i, --init', '初始化开发环境')
         .action((options) => {
-        console.log(options);
         if (options.init) {
             install_1.default();
         }

@@ -4,7 +4,9 @@ module.exports = {
     node: true
   },
   extends: [
-    'standard'
+    'standard',
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -15,6 +17,8 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
-    semi: ['error', 'always']
+    semi: ['error', 'always'],
+    'space-before-function-paren': ['error', 'never'],
+    'no-var-requires': 0
   }
 };
